@@ -158,7 +158,7 @@ For xy gantry use 2*belt moved!
 Overridden if EEPROM activated.*/
 #define YAXIS_STEPS_PER_MM 161.83
 /** \brief Number of steps for a 1mm move in z direction  Overridden if EEPROM activated.*/
-#define ZAXIS_STEPS_PER_MM 5120
+#define ZAXIS_STEPS_PER_MM 1600
 
 #endif
 
