@@ -223,7 +223,7 @@
 #define UI_TEXT_EEPROM_LOADED     "Configuration","loaded f. EEPROM"
 #define UI_TEXT_UPLOADING         "Uploading..."
 #define UI_TEXT_PAGE_BUFFER       "Buffer:%oB"
-#define UI_TEXT_PAGE_EXTRUDER     " E:%ec/%Ec\002C\176%oC"
+#define UI_TEXT_PAGE_EXTRUDER     "E:%ec/%Ec\002C\176%oC"
 #define UI_TEXT_PAGE_EXTRUDER1     "E1:%e0/%E0\002C\176%o0"
 #define UI_TEXT_PAGE_EXTRUDER2     "E2:%e1/%E1\002C\176%o1"
 #define UI_TEXT_PAGE_EXTRUDER3     "E3:%e2/%E2\002C\176%o2"
