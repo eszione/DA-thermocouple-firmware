@@ -358,12 +358,12 @@ A good start is 30 lower then the optimal value. You need to leave room for cool
 */
 #define EXT1_PID_INTEGRAL_DRIVE_MIN 60
 /** P-gain.  Overridden if EEPROM activated. */
-#define EXT1_PID_P   24
+#define EXT1_PID_P   4.11
 /** I-gain.  Overridden if EEPROM activated.
 */
-#define EXT1_PID_I   0.88
+#define EXT1_PID_I   0.85
 /** D-gain.  Overridden if EEPROM activated.*/
-#define EXT1_PID_D 200
+#define EXT1_PID_D 4.80
 // maximum time the heater is can be switched on. Max = 255.  Overridden if EEPROM activated.
 #define EXT1_PID_MAX 255
 /** \brief Faktor for the advance algorithm. 0 disables the algorithm.  Overridden if EEPROM activated.
