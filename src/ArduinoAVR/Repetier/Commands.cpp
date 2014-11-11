@@ -1076,6 +1076,7 @@ void Commands::executeGCode(GCode *com)
         case 303:
         {
 #if defined(TEMP_PID) && NUM_TEMPERATURE_LOOPS>0
+			delay(100);
             int temp = 150;
             int cont = 0;
             if(com->hasS()) temp = com->S;
